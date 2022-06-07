@@ -19,10 +19,14 @@ I always keep my finger on the pulse in the field of IT technologies.
 - Git (basic)
 - JS (basic)
 
-## Code Example
+## Code Example:
 
 ```
-function multiply(a, b){
+function multiply(a, b)
+{
 return  a * b
 }
 ```
+
+## Experience:
+[CV](https://pipetosik.github.io/rsschool-cv/cv "CV page")
