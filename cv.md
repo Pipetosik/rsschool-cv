@@ -30,3 +30,7 @@ return  a * b
 
 ## Experience:
 [CV](https://pipetosik.github.io/rsschool-cv/cv "CV page")
+
+## Education
+
+- **University:** Belarusian State Economic University (BSEU), Economist
