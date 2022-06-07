@@ -18,3 +18,11 @@ I always keep my finger on the pulse in the field of IT technologies.
 - HTML&CSS (basic)
 - Git (basic)
 - JS (basic)
+
+## Code Example
+
+```
+function multiply(a, b){
+return  a * b
+}
+```
