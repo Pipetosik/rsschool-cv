@@ -5,12 +5,107 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pipetosik</title>
+  <title>My CV</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <img src="images/avatar.jpg" alt="avatar">
-</body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">My Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main"> 
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img class="section-profile-avatar" src="./assets/img/avatar.jpg" alt="avatar">  
+        <div class="section-profile-title">
+          <h1 class="main-title">Yauheni Prylipa</h1>
+          <h3> Junior Front-End Developer</h3>
+        </div> 
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">My Contacts:</h2>
+        <ul class="section-list contacts-list">
+          <li class="section-item">
+            Address: <a href="https://www.google.com/maps/d/u/0/viewer?ie=UTF8&oe=UTF8&msa=0&mid=12BhrpS0z-MFDQzPWHiYrUYc5baY&ll=53.91190006121844%2C27.652521841963537&z=12" title="Address">Republic of Belarus. Minsk</a>
+          </li>
+          <li class="section-item contacts-item">
+            Phone: <a href="tel:+375291208389" title="phone">+375 (29) 120-83-89</a>
+          </li>
+          <li class="section-item">
+            Telegram: <a href="https://t.me/PriEvg" title="telegram">@PriEvg</a> 
+          </li>
+          <li class="section-item">
+            E-mail: <a href="mailto:lpipetosik@gmail.com" title="email">lpipetosik@gmail.com</a>
+          </li>
+          <li class="section-item">
+            GitHub: <a href="https://github.com/Pipetosik" title="github">Pipetosik</a> 
+          </li>
+          <li class="section-item">
+            Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">Pips#5053</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">About me:</h2>
+        <p>I am 29 years old. Business qualities: Ability to make decisions, demanding of oneself and others, striving for the organization of a clear and balanced production process. Personal qualities: diligence, sociability, punctuality, learning ability, stress resistance, ability to work in multitasking mode, no bad habits. I always keep my finger on the pulse in the field of IT technologies.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills:</h2>
+        <ul class="section-list skills-list">
+          <li class="section-item">HTML&CSS (basic)</li>
+          <li class="section-item">Git (basic)</li>
+          <li class="section-item">JS (basic)</li>
+          <li class="section-item">VS Code</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code Example:</h2>
+        <pre>
+          <code>function multiply(a, b)
+          {
+          return  a * b
+          }</code>
+        </pre>  
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience:</h2>
+        <ul class="section-list projects-list">
+          <li class="section-item"><a href="https://github.com/Pipetosik/rsschool-cv">CV</a></li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education:</h2>
+        <p>University: Belarusian State Economic University (BSEU), Economist</p>
+      </section>
+      <section class="section" id="english">
+        <h2 class="section-title">English:</h2>
+        <p>А2 (Elementary)</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="https://github.com/Pipetosik" class="github footer-link">Pipetosik</a>
+      <div>© 2022</div>
+      <a href="https://rs.school/js/" class="rss"></a>
+    </div>
+  </footer>
+</body> 
 
 </html>
