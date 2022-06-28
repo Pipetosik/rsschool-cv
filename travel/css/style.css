@@ -473,3 +473,46 @@ label{
     padding-left: 21px;
     background: rgba(255, 255, 255, 0.7);
 }
+
+footer{
+    width: 1440px;
+    display: flex;
+    justify-content: end;
+    margin-top: 47px;
+    margin-left: -21px;
+    align-items: center;
+}
+
+footer p{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: -2px;
+    margin-top: -4px;
+}
+
+.social{
+    margin-left: 330px;
+    margin-right: 74px;
+    display: flex;
+    list-style: none;
+       
+}
+
+footer .instagram img{
+    height: 33.65px;
+    margin-right: 19px;
+}
+
+footer .YouTube img{
+    height: 29.65px;
+    margin-right: 20px;
+}
+
+footer .twitter img{
+    height: 28.65px;
+    margin-right: 24px;
+}
