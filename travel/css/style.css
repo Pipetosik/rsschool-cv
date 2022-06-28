@@ -85,3 +85,87 @@ list-style: none;
     font-size: 16px;
     line-height: 21px;
 }
+
+.preview {
+    background:url(../assets/img/garrett_parker.png) center center/cover no-repeat;
+    width: 1440px;
+    height: 765px;
+    margin-top: -90px;
+}
+
+.title {
+    width: 916px;
+    height: 422px;
+    float: left;
+    margin-top: 65px;
+    margin-left: 119px;
+
+}
+
+.title h1{
+    margin: 0;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.title p{
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 33px;
+}
+
+.search{  
+    width: 892px;
+    height: 95px;
+    padding-left: 120px;
+    margin-top: -6px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 892px;
+    height: 95px;
+    left: 120px;
+    top: 416px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    float: left;
+    margin-top: -126px;
+    margin-left: -274px;
+}
+
+label{
+    margin-left: 41px;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 95px;
+    color: #F2785C;
+}
+
+.search button{
+    margin-right: 18px;
+    background-color: #0D606F;
+    color: white;
+    height: 59px;
+    width: 228px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
