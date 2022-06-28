@@ -5,6 +5,10 @@
     max-width: 1440px;  
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 a {
     text-decoration: none;
 }
