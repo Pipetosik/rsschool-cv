@@ -11,7 +11,12 @@ html {
 
 a {
     text-decoration: none;
+    transition: color 0.5s;
 }
+
+a:hover {
+    color: #572b2b;
+  }
 
 .container {
     max-width: 1440px;
