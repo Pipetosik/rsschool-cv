@@ -377,3 +377,99 @@ label{
     margin-top: 13px;
     margin-left: -10px;
 }
+
+.stories{
+    width: 1440px;
+    height: 1331px;
+}
+
+.storiesText{
+    height: 1331px;
+    background: url(../assets/img/Boat.png);
+}
+
+.storiesCaption h2{
+    margin-top: 80px;
+    padding-bottom: 39px;
+    display: flex;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    justify-content: center;
+}
+
+.story1 {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 42px 112px 15px 121px;
+}
+.story2 {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 16px 96px 15px 125px;
+}
+.story3 {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 15px 126px 15px 119px;
+}
+.story4 {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 15px 126px 15px 119px;
+}
+.stories img{
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    max-width: 400px;
+    max-height: 250px;
+    border-radius: 16px;
+    margin-right: 40px;
+}
+
+.stories .text h3{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+}
+
+.stories .text p{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+.stories button{
+    margin-right: 18px;
+    margin-top: -2px;
+    background-color: #0D606F;
+    color: white;
+    height: 59px;
+    width: 228px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left: 21px;
+    background: rgba(255, 255, 255, 0.7);
+}
